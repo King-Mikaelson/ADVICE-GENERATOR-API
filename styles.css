@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+
+*, *::before, ::after {
+    box-sizing : border-box;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    margin: 0;
+    padding:0;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1.5rem;
+    background-color:  hsl(218, 23%, 16%);
+    text-align: center;
+}
+
+.heading {
+    color: hsl(150, 100%, 66%);
+    text-transform :uppercase;
+    margin-top: 3rem;
+    letter-spacing: 0.3rem;
+    font-weight: 100;
+}
+
+
+.card {
+    background-color:hsl(217, 19%, 24%);
+    margin: 0 4rem;
+    width: 36rem;
+    border-radius: 1rem;
+}
+
+.quote{
+    font-size: 28px;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    margin: 2rem 0.5em;
+    color: hsl(193, 38%, 86%)
+
+}
+
+.image-one{
+    margin: 1.5rem auto;
+}
+
+
+.image-two{
+    margin-bottom: -2rem
+}
+
+.image-two .cube{
+    background-color: hsl(150, 100%, 66%) ;
+    border-radius: 1.7rem;
+    border: 15px hsl(150, 100%, 66%) solid;
+    opacity: 0.6
+}
+
+
+.image-two .cube:hover{
+    opacity: 1
+}
+
+.image-two .cube:active{
+    transform: scale(0.98)
+}
